@@ -46,10 +46,15 @@ The data are about FAANG companies:
 
 ## Run Locally
 
-Clone the project
+1. Clone the project
 
 ```bash
-  gh repo clone manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow
+git clone https://github.com/manyuzhang1996/FAANG-Stock-Price-Prediction-under-Layoffs-and-AI-Boost.git
+```
+
+2. Navigate to the project directory
+```bash
+cd FAANG-Stock-Price-Prediction-under-Layoffs-and-AI-Boost
 ```
 
 ## Contact Authors
