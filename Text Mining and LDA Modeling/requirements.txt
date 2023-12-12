@@ -1,0 +1,6 @@
+nltk
+textblob
+afinn
+matplotlib
+wordcloud
+gensim
