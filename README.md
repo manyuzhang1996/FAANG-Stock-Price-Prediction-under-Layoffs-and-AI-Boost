@@ -23,11 +23,11 @@ The data are about FAANG companies:
 
 **Latest (Scapped) News Statistics:**
 <!-- Latest News Statistics Image 1 -->
-<img src="https://github.com/manyuzhang1996/FAANG-Stock-Price-Prediction-under-Layoffs-and-AI-Boost/assets/111943220/86a2b571-d7e6-4498-9ba8-404613501aa2" alt="Latest News Statistics Image 1" width="500">
+<img src="https://github.com/manyuzhang1996/FAANG-Stock-Price-Prediction-under-Layoffs-and-AI-Boost/assets/111943220/86a2b571-d7e6-4498-9ba8-404613501aa2" alt="Latest News Statistics Image 1" width="400">
 
 
 <!-- Latest News Statistics Image 2 -->
-<img src="https://github.com/manyuzhang1996/FAANG-Stock-Price-Prediction-under-Layoffs-and-AI-Boost/assets/111943220/870a5457-cde7-4376-8882-7c4ce3d4549d" alt="Latest News Statistics Image 2" width="500">
+<img src="https://github.com/manyuzhang1996/FAANG-Stock-Price-Prediction-under-Layoffs-and-AI-Boost/assets/111943220/870a5457-cde7-4376-8882-7c4ce3d4549d" alt="Latest News Statistics Image 2" width="400">
 
  
 ## Project Architecture
