@@ -1,44 +1,36 @@
 
-# Read-Time Deep Face Detection Model
+# FAANG Stock Price Prediction under Tech Layoffs and AI Boost
 
-A project leverages Python and TensorFlow to create a deep face detection model which can perform real-time detection.
+A project leverages historical news and stock price data and the latest news and stock price data to perform stock price prediction in technical industry.
 
-![Deep Face Detection Project Architecture copy](https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/88f2dc1b-073b-44f2-ab6b-013295b8af15)
-
-
+![Methodology](https://github.com/manyuzhang1996/Stock-Price-Prediction-with-News/assets/111943220/69f5d44c-04eb-43f8-bbac-79dc72df1b2f)
 
 
 ## Tech Stack
-Languages: 
 * Python
-
-Other Platforms, Tools and Libraries: 
 * TensorFlow: https://github.com/tensorflow/tensorflow
-* OpenCV: https://github.com/opencv/opencv
-* Label Me: https://github.com/wkentaro/labelme
-* Albumentations: https://github.com/albumentations-team/albumentations
-* Keras: https://github.com/keras-team/keras
 
 
 ## Data Source
-The images used for this project are real images collected with webcam using OpenCV.
-
-There are 90 images collected. After image augmentation with albumentations, we have 5400 images in total. 
-
-Images are of different backgrounds, with and/ or without human face in it. 
+The historical news and stock price data are from Kaggle: https://www.kaggle.com/datasets/deepakjoshi2k/yahoo-stock-prediction-by-news?select=NEWS_YAHOO_stock_prediction.csv
+The latest news and stock price data are scrapped from Finviz and Yahoo Finance. 
+The data are about FAANG companies:
+1. Facebook (Meta)
+2. Amazon
+3. Apple
+4. Netflix
+5. Google
+ 
 ## Project Architecture
 
+1. Collect data from multiple sources about FANNG companies
+2. Perform text mining on historical and the latest news data
+3. Calculate sentiment score for news
+4. Build LDA topic model for text understanding
+5. Build classifiers to predict stock price trend (up and down) with news
+6. Build time series deep learning model to predict actual stock price
 
-1. Collect images with webcam using OpenCV
-2. Annotate images by adding bounding boxes around the face with LabelMe
-3. Conduct image augmentation with Albumentations
-4. Define loss function which combines face classification loss and bounding coordinates regression loss
-5. Design the neural network for this project. Uses the VGG16 model (without final layer) as base, append the classification model and regression model to VGG16 base model respectively
-6. Train and save the model with Keras.model
-7. Perform real time face detection with OpenCV
-
-![Deep Face Detection Project Architecture copy](https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/88f2dc1b-073b-44f2-ab6b-013295b8af15)
-
+![Methodology](https://github.com/manyuzhang1996/Stock-Price-Prediction-with-News/assets/111943220/69f5d44c-04eb-43f8-bbac-79dc72df1b2f)
 
 
 
@@ -51,5 +43,9 @@ Clone the project
   gh repo clone manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow
 ```
 
-## Contact
+## Contact Authors
 Manyu Zhang (zhangmanyuzmy@gmail.com)
+
+Hui Yun
+
+Maria Hovhannisyan
